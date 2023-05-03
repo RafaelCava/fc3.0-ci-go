@@ -23,7 +23,7 @@ jobs:
 
       - name: Build image docker
         id: docker_build
-        uses: docker/build-push-actions@v2
+        uses: docker/build-push-action@v2
         with:
           push: false
           tags: rafaelcaval1/fc3.0-ci-go:latest
